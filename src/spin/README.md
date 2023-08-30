@@ -1,15 +1,13 @@
 
 # Fermyon Spin (spin)
 
-A Fermyon Spin  feature
+A hello world feature
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/ThorstenHans/devcontainer-features/spin:1": {
-        "version": "1.4.1"
-    }
+    "ghcr.io/ThorstenHans/devcontainer-features/spin:0": {}
 }
 ```
 
@@ -17,6 +15,10 @@ A Fermyon Spin  feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | The desired version of Fermyon spin | string | latest |
+| version | Select or enter a version. | string | latest |
+
+
 
 ---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ThorstenHans/devcontainer-features/blob/main/src/spin/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
