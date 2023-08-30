@@ -1,0 +1,19 @@
+{
+    "name": "Fermyon Spin",
+    "id": "spin",
+    "version": "1",
+    "description": "A hello world feature",
+    "options": {
+      "version": {
+        "type": "string",
+        "proposals": [
+          "latest"
+        ],
+        "default": "latest",
+        "description": "Select or enter a version."
+      }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
