@@ -2,7 +2,7 @@
     "name": "Fermyon Spin",
     "id": "spin",
     "version": "0.0.1",
-    "description": "A hello world feature",
+    "description": "Adds Fermyon Spin to the devcontainer.",
     "options": {
       "version": {
         "type": "string",
