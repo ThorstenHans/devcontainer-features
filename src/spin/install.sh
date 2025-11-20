@@ -6,7 +6,7 @@ echo "Activating feature 'spin'"
 version=${version:-latest}
 
 echo "Remote User Home: " $_REMOTE_USER_HOME
-export SPIN_DATA_DIR=${_REMOTE_USER_HOME}/spin
+export SPIN_DATA_DIR=${_REMOTE_USER_HOME}/.local/share/spin
 echo "Spin Data Dir: " $SPIN_DATA_DIR
 if [ "$version" != "latest" ]; then
     case "$version" in
