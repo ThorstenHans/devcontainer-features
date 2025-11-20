@@ -1,14 +1,13 @@
-# Spin Framework
 
-Dev Container feature to install Spin framework
+# Spin (spin)
+
+Installs Spin framework
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/thorstenhans/devcontainer-features/spin:1": {
-        "version": "latest"
-    }
+    "ghcr.io/ThorstenHans/devcontainer-features/spin:1": {}
 }
 ```
 
@@ -16,7 +15,10 @@ Dev Container feature to install Spin framework
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| `version` | Specify desired version of `spin` | string | `latest` |
+| version | Specify the desired version of Spin | string | latest |
 
-Either provide a specific version e.g. `3.5.1`, `latest`, or `canary`
 
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ThorstenHans/devcontainer-features/blob/main/src/spin/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
