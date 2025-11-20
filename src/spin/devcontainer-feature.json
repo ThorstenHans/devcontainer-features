@@ -1,0 +1,21 @@
+{
+    "name": "Spin",
+    "id": "spin",
+    "version": "1.0.2",
+    "description": "Installs Spin framework",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "canary",
+                "3.5.1"
+            ],
+            "default": "latest",
+            "description": "Specify the desired version of Spin"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
