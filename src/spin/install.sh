@@ -24,11 +24,7 @@ cp spin /usr/local/bin/
 
 echo "Now installing the following Spin plugins:" $plugins
 
-# split comma-separated plugins and install each
-printf '%s' "$plugins" | tr ',' '\n' | while IFS= read -r plugin; do
-    plugin=$(printf '%s' "$plugin" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
-    if [ -n "$plugin" ]; then
-        echo "Installing plugin: $plugin"
-        spin plugins install "$plugin" --yes
-    fi
+plugins_array=(${(s/,/)plugins})
+for plugin in "${plugins_array[@]}"; do
+    spin plugin install "$plugin" --yes
 done
