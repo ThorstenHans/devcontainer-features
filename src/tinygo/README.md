@@ -1,5 +1,5 @@
 
-# TinyGo
+# TinyGo (tinygo)
 
 Installs TinyGo
 
@@ -17,8 +17,15 @@ Installs TinyGo
 |-----|-----|-----|-----|
 | version | Specify the desired version of TinyGo | string | 0.39.0 |
 
+## Customizations
+
+### VS Code Extensions
+
+- `tinygo.vscode-tinygo`
+- `golang.go`
+
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ThorstenHans/devcontainer-features/blob/main/src/spin/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ThorstenHans/devcontainer-features/blob/main/src/tinygo/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
