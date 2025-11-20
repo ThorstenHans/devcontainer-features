@@ -1,0 +1,30 @@
+{
+    "name": "TinyGo",
+    "id": "tinygo",
+    "version": "1.0.2",
+    "description": "Installs TinyGo",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "0.39.0"
+            ],
+            "default": "0.39.0",
+            "description": "Specify the desired version of TinyGo"
+        }
+    },
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/go": {}
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "tinygo.vscode-tinygo",
+                "golang.go"
+            ]
+        }
+    }
+}
