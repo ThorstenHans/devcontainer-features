@@ -24,7 +24,4 @@ cp spin /usr/local/bin/
 
 echo "Now installing the following Spin plugins:" $plugins
 
-IFS=',' read -r -a plugins_array <<< "$plugins"
-for plugin in "${plugins_array[@]}"; do
-    spin plugin install "$plugin" --yes
-done
+echo $plugins | tr ',' '\n' | xargs -I plugin_name spin plugins install plugin_name --yes
