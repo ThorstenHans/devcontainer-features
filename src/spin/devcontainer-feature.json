@@ -1,9 +1,18 @@
 {
     "name": "Spin",
     "id": "spin",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Installs Spin framework",
     "options": {
+        "plugins": {
+            "type": "string",
+            "description": "Specify Spin plugins that should be installed by default",
+            "proposals": [
+                "kube",
+                "aka"
+            ],
+            "default": "kube,aka"
+        },
         "version": {
             "type": "string",
             "proposals": [
