@@ -25,3 +25,5 @@ cp spin /usr/local/bin/
 echo "Now installing the following Spin plugins:" $plugins
 
 echo $plugins | tr ',' '\n' | xargs -I plugin_name spin plugins install plugin_name --yes
+
+chown -R $_REMOTE_USER:$_REMOTE_USER $SPIN_DATA_DIR
