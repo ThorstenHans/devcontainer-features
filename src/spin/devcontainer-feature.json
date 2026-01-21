@@ -1,8 +1,9 @@
 {
     "name": "Spin",
     "id": "spin",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Installs Spin framework",
+    "containerEnv": {},
     "options": {
         "plugins": {
             "type": "string",
