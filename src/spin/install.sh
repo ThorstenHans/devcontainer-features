@@ -9,6 +9,13 @@ plugins=${plugins:-"kube,aka"}
 echo "Remote User Home: " $_REMOTE_USER_HOME
 export SPIN_DATA_DIR=${_REMOTE_USER_HOME}/.local/share/spin
 echo "Spin Data Dir: " $SPIN_DATA_DIR
+
+echo "Unsetting OTEL env vars"
+for var in $(env | grep '^OTEL_' | cut -d= -f1); do
+    unset "$var"
+done
+export OTEL_TRACES_EXPORTER=none
+
 if [ "$version" != "latest" ]; then
     case "$version" in
         [0-9]*)
