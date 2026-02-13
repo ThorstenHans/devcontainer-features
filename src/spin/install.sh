@@ -8,7 +8,7 @@ plugins=${plugins:-"kube,aka"}
 
 echo "Remote User Home: " $_REMOTE_USER_HOME
 export SPIN_DATA_DIR=${_REMOTE_USER_HOME}/.local/share/spin
-export DEFAULT_TEMPDIR=${_REMOTE_USER_HOME}/.tmp
+export TMPDIR=${_REMOTE_USER_HOME}/.tmp
 echo "Spin Data Dir: " $SPIN_DATA_DIR
 
 echo "Unsetting OTEL env vars"
