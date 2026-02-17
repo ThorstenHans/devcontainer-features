@@ -11,9 +11,9 @@ if [ "$version" != "latest" ]; then
             version="v$version"
             ;;
     esac
-    curl -fsSL install-spin.sh | bash -s -- -v $version
+    cat install-spin.sh | bash -s -- -v $version
 else
-    curl -fsSL install-spin.sh | bash
+    cat install-spin.sh | bash
 fi
 
 cp spin /usr/local/bin/
