@@ -1,0 +1,20 @@
+{
+    "name": "apl",
+    "id": "apl",
+    "version": "1.0.0",
+    "description": "Installs APL CLI",
+    "containerEnv": {},
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "0.1.0"
+            ],
+            "default": "0.1.0",
+            "description": "Specify the desired version of APL CLI"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
