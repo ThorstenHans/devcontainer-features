@@ -15,7 +15,6 @@ Installs the CNCF Spin framework
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| plugins | Specify Spin plugins that should be installed by default | string | kube,aka |
 | version | Specify the desired version of Spin | string | latest |
 
 
