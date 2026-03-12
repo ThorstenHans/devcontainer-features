@@ -1,7 +1,7 @@
 
 # Spin (spin)
 
-Installs Spin framework
+Installs the CNCF Spin framework
 
 ## Example Usage
 
