@@ -9,11 +9,11 @@
         "version": {
             "type": "string",
             "proposals": [
-                "0.1.0",
+                "2.3.0",
                 "latest"
             ],
-            "default": "0.1.0",
-            "description": "Specify the desired version of APL CLI"
+            "default": "latest",
+            "description": "Specify the desired version of the oapi-codegen CLI"
         }
     },
     "dependsOn": {
