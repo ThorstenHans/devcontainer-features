@@ -3,7 +3,7 @@ set -e
 
 echo "Activating feature 'apl'"
 
-version=${version:-0.1.0}
+version=${version:-0.1.4}
 
 UNAME_ARC=$(uname -m)
 UNAME_OS=$(uname -s)
