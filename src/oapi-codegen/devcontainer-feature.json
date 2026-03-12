@@ -1,0 +1,22 @@
+{
+    "id": "oapi-codegen",
+    "version": "1.0.0",
+    "name": "oapi-codegen",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/go"
+    ],
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "0.1.0",
+                "latest"
+            ],
+            "default": "0.1.0",
+            "description": "Specify the desired version of APL CLI"
+        }
+    },
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/go": {}
+    }
+}
