@@ -1,14 +1,15 @@
 {
     "name": "apl",
     "id": "apl",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Installs APL CLI",
     "containerEnv": {},
     "options": {
         "version": {
             "type": "string",
             "proposals": [
-                "0.1.0"
+                "0.1.3",
+                "0.1.4"
             ],
             "default": "0.1.0",
             "description": "Specify the desired version of APL CLI"
