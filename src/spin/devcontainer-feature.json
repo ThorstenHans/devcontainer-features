@@ -2,7 +2,7 @@
     "name": "Spin",
     "id": "spin",
     "version": "1.0.18",
-    "description": "Installs Spin framework",
+    "description": "Installs the CNCF Spin framework",
     "containerEnv": {},
     "options": {
         "plugins": {
@@ -19,7 +19,7 @@
             "proposals": [
                 "latest",
                 "canary",
-                "3.5.1"
+                "3.6.2"
             ],
             "default": "latest",
             "description": "Specify the desired version of Spin"
