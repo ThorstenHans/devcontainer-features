@@ -15,7 +15,7 @@
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Specify the desired version of APL CLI | string | 0.1.0 |
+| version | Specify the desired version of the oapi-codegen CLI | string | latest |
 
 
 
