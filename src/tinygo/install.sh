@@ -3,7 +3,7 @@ set -e
 
 echo "Activating feature 'tinygo'"
 
-version=${version:-0.39.0}
+version=${VERSION:-0.39.0}
 arch=$(dpkg --print-architecture)
 tinygo_name=tinygo_${version}_${arch}.deb
 

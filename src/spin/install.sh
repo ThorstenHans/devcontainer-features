@@ -3,7 +3,7 @@ set -e
 
 echo "Activating feature 'spin'"
 
-version=${version:-latest}
+version=${VERSION:-latest}
 
 if [ "$version" != "latest" ]; then
     case "$version" in

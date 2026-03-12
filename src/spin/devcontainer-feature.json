@@ -1,19 +1,10 @@
 {
     "name": "Spin",
     "id": "spin",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "description": "Installs the CNCF Spin framework",
     "containerEnv": {},
     "options": {
-        "plugins": {
-            "type": "string",
-            "description": "Specify Spin plugins that should be installed by default",
-            "proposals": [
-                "kube",
-                "aka"
-            ],
-            "default": "kube,aka"
-        },
         "version": {
             "type": "string",
             "proposals": [
