@@ -17,6 +17,8 @@
         }
     },
     "dependsOn": {
-        "ghcr.io/devcontainers/features/go": {}
+        "ghcr.io/devcontainers/features/go": {
+            "version": "1.25"
+        }
     }
 }
